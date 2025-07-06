@@ -1,4 +1,4 @@
-package org.summer2025.ruslan;
+package org.summer2025.ruslan.HW1;
 
 public class ConverterApp {
     private static final double CONV_K=2.20462;
