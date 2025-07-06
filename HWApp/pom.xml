@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.summer2025.ruslan</groupId>
-    <artifactId>ConverterApp</artifactId>
+    <artifactId>HWApp</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
