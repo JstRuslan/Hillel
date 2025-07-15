@@ -1,4 +1,4 @@
-package org.summer2025.ruslan.HW5_1;
+package HW5_1;
 
 // Клас розрахунку базової вартості товару
 public class CalcCostBase {
