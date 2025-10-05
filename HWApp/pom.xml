@@ -12,6 +12,7 @@
         <module>src/main/PasswordGenerator</module>
         <module>src/main/java/HW23</module>
         <module>src/main/java/HW26</module>
+        <module>src/main/java/HW25</module>
     </modules>
 
     <properties>
