@@ -1,0 +1,11 @@
+2025-11-10 04:15:25.963675+02:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepared statement; use a regular statement instead. [90130-232]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:566)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:185)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:147)
+	at org.summer2025.ruslan.Main.deleteStmt(Main.java:30)
+	at org.summer2025.ruslan.Main.main(Main.java:18)

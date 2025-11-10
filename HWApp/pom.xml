@@ -13,6 +13,7 @@
         <module>src/main/java/HW23</module>
         <module>src/main/java/HW26</module>
         <module>src/main/java/HW25</module>
+        <module>src/main/java/HW27</module>
     </modules>
 
     <properties>
