@@ -1,0 +1,26 @@
+mysql> CREATE TABLE sales(
+    -> id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    -> product VARCHAR(255) NOT NULL,
+    -> price DECIMAL(10,2) NOT NULL,
+    -> quantity INT);
+
+mysql> INSERT INTO sales(product, price, quantity) VALUES
+    -> ('Laptop', 1000, 5),
+    -> ('Phone', 700, 3),
+    -> ('Tablet', 500, 2),
+    -> ('Printer', 300, 4);
+
+mysql> INSERT INTO sales(product, price, quantity) VALUES
+    -> ('Laptop', 1000, 5),
+    -> ('Phone', 700, 3),
+    -> ('Tablet', 500, 2),
+    -> ('Printer', 300, 4);
+
+mysql> SELECT * FROM sales;
+
+mysql> SELECT * FROM sales LIMIT 2;
+
+mysql> SELECT SUM(price*quantity) AS total_cost FROM sales;
+
+mysql> SELECT product, SUM(quantity), AVG(price) AS average_price FROM sales GROUP BY product;
+
