@@ -14,6 +14,7 @@
         <module>src/main/java/HW26</module>
         <module>src/main/java/HW25</module>
         <module>src/main/java/HW27</module>
+        <module>src/main/java/HW29_DB</module>
     </modules>
 
     <properties>
