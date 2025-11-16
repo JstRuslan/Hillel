@@ -1,4 +1,4 @@
-import org.summer2025.ruslan.PasswordGenerator;
+import org.summer2025.PasswordGenerator;
 
 public class StartApp {
 

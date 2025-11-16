@@ -34,8 +34,8 @@ org.h2.jdbc.JdbcSQLNonTransientException: This method is not allowed for a prepa
 	at org.h2.message.DbException.get(DbException.java:188)
 	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:185)
 	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:147)
-	at org.summer2025.ruslan.DAO.EmployeeDAO.updateStmt(EmployeeDAO.java:29)
-	at org.summer2025.ruslan.Main.main(Main.java:16)
+	at DAO.org.summer2025.EmployeeDAO.updateStmt(EmployeeDAO.java:29)
+	at org.summer2025.Main.main(Main.java:16)
 2025-11-16 00:00:22.027625+02:00 jdbc[3]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "DELETE [*]TABLE employyers"; expected "identifier"; SQL statement:
 DELETE TABLE employyers [42001-240]
