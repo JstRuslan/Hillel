@@ -38,7 +38,7 @@ public class ClientHandler {
             waitMsg();
             try {
                 server.unSubscribe(this);
-                socket.close();
+//                socket.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -52,7 +52,7 @@ public class ClientHandler {
                     String msg = in.readUTF();
                     System.out.println(Command.CLIENT_MSG_CMD_PREFIX + username + "> " + msg);
                     if (msg.startsWith(Command.EXIT_CLIENT_CMD_PREFIX)) {
-//                        server.unSubscribe(this);
+                        server.unSubscribe(this);
                         break;
                     }
                 }

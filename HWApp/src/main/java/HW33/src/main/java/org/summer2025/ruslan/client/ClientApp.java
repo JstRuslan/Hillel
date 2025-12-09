@@ -42,12 +42,13 @@ public class ClientApp {
         Thread threadWaitMsg = new Thread(() -> {
             try (DataInputStream in = new DataInputStream(socket.getInputStream())) {
                 while (true) {
-                    if (!socket.isClosed()) {
+                    if (!socket.isClosed() && socket.isConnected()) {
                         String msg = in.readUTF();
                         if (msg != null) {
                             if (msg.startsWith(Command.SERVER_MSG_CMD_PREFIX)) {
                                 logger.info("> {}", msg);
                             }
+
                         }
                     } else {
                         break;
