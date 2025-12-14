@@ -14,11 +14,16 @@
         <module name="HW27" />
         <module name="PasswordGenerator" />
         <module name="HW32" />
+        <module name="HW30" />
+        <module name="HW31" />
+        <module name="HW32" />
         <module name="HW33" />
         <module name="HW30" />
         <module name="HW31" />
+          <module name="HW37" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+         </bytecodeTargetLevel>
   </component>
 </project>
