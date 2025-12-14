@@ -9,12 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HW25" />
         <module name="HW26" />
+        <module name="HW37" />
         <module name="HW23" />
         <module name="HW29_DB" />
         <module name="HW27" />
         <module name="PasswordGenerator" />
+        <module name="HW32" />
+        <module name="HW30" />
+        <module name="HW31" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="HW33" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
