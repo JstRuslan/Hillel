@@ -1,0 +1,11 @@
+package org.summer2025.ruslan;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringMVC {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringMVC.class, args);
+    }
+}

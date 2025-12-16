@@ -7,23 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HW25" />
-        <module name="HW26" />
-        <module name="HW23" />
-        <module name="HW29_DB" />
-        <module name="HW27" />
-        <module name="PasswordGenerator" />
-        <module name="HW32" />
-        <module name="HW30" />
-        <module name="HW31" />
+        <module name="HW40" />
         <module name="HW32" />
         <module name="HW33" />
         <module name="HW30" />
+        <module name="HW41" />
         <module name="HW31" />
-          <module name="HW37" />
+        <module name="HW25" />
+        <module name="HW26" />
+        <module name="HW37" />
+        <module name="HW23" />
+        <module name="HW29_DB" />
+        <module name="HW27" />
+        <module name="HW38" />
+        <module name="PasswordGenerator" />
+        <module name="HW39" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
-         </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="17" />
   </component>
 </project>
