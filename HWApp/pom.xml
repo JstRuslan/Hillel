@@ -20,6 +20,10 @@
         <module>src/main/java/HW32</module>
         <module>src/main/java/HW37</module>
         <module>src/main/java/HW33</module>
+        <module>src/main/java/HW38</module>
+        <module>src/main/java/HW39</module>
+        <module>src/main/java/HW40</module>
+        <module>src/main/java/HW41</module>
     </modules>
 
     <properties>
