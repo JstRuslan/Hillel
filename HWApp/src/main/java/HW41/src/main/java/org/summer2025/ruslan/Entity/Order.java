@@ -22,7 +22,7 @@ public class Order {
     private Long id;
     private Double totalCost;
 
-    @ManyToMany(cascade = CascadeType.ALL)
+    @ManyToMany
     @JoinTable(
             name = "orders_products",
             joinColumns = @JoinColumn(name = "order_id"),
